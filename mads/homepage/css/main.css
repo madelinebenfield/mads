@@ -1,0 +1,33 @@
+body {
+  background: rgb(255, 204, 166);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 204, 166, 1) 35%,
+    rgba(232, 183, 70, 1) 100%
+  );
+  font: 12pt courier;
+  z-index: 1;
+}
+
+#name {
+  position: absolute;
+  height: 100px;
+  left: 31%;
+  z-index: 11;
+}
+#week {
+  font: 20pt courier;
+  z-index: 1;
+}
+#circle {
+  position: absolute;
+  z-index: 3;
+  left: 22%;
+  top: 250px;
+}
+#greencircle {
+  position: absolute;
+  z-index: 3;
+  left: 55%;
+  top: 100px;
+}
