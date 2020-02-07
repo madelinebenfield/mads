@@ -1,12 +1,7 @@
-#circle{
-    position: absolute;
-    left: 30px;
-}
 #top{
     position: absolute;
     right: 20%;
     font: 20pt courier;
-    font-weight: bold;
 }
 #below{
     position: absolute;
@@ -33,18 +28,13 @@
     position: absolute;
     left: 50%;
     font: 12pt courier;
-    letter-spacing: 14px;
 }
 #intro{
     position: absolute;
     float: right;
     text-align: justify;
-    color: white;
     left: 50%;
     right: 10%;
-    font: 10pt courier;
-    background-color: black;
-    padding: 12px;
 }
 #section1{
     position: absolute;

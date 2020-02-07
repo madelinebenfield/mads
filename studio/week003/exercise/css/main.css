@@ -1,0 +1,32 @@
+#one{
+    background-color: #4fc288;
+    top: 0px;
+    left: -10%;
+    height: 400px;
+    width: 500px;
+}
+#two{
+    background-color:#129a55;
+    left: 50%;
+    top: 300px;
+    height: 600px;
+    width: 700px;
+}
+#three{
+    background-color:#608573;
+    right: 0%;
+    top: 400px;
+    position: absolute;
+    height: 540px;
+    width: 603px;
+    z-index: 2;
+}
+#four{
+    background-color: #e967b7;
+    position: absolute;
+    top: 0px;
+    right: 1px;
+    width: 900px;
+    height: 409px;
+    z-index: 5;
+}

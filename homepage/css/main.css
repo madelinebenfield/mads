@@ -8,26 +8,35 @@ body {
   font: 12pt courier;
   z-index: 1;
 }
-
 #name {
   position: absolute;
   height: 100px;
   left: 31%;
-  z-index: 11;
+  z-index: 1;
 }
 #week {
   font: 20pt courier;
-  z-index: 1;
+  z-index: 12;
 }
 #circle {
   position: absolute;
   z-index: 3;
   left: 22%;
   top: 250px;
+  z-index: 22;
 }
 #greencircle {
   position: absolute;
   z-index: 3;
   left: 55%;
   top: 100px;
+}
+.blurb{
+  position: absolute;
+  font: 12pt courier;
+  color: #ffffff;
+  right: 10%;
+  top: 400px;
+  text-align: justify;
+  left: 60%;
 }
