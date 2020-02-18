@@ -1,0 +1,572 @@
+#circle{
+    position: absolute;
+    left: 30px;
+}
+nav{
+    position: absolute;
+    font: 12pt courier;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    top: 278px;
+    left: 236px;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:active{
+    color: black;
+}
+#top{
+    position: absolute;
+    right: 20%;
+    font: 20pt courier;
+    font-weight: bold;
+}
+#below{
+    position: absolute;
+    right: 28%;
+    font: 15pt courier;
+}
+#next{
+    position: absolute;
+    right: 30%;
+    font: 15pt courier;
+}
+#last{
+    position: absolute;
+    right: 35%;
+    font: 15pt courier; 
+}
+#copyright{
+    position: absolute;
+    float: left;
+    top: 8px;
+    font: 6pt courier;
+}
+#title{
+    position: absolute;
+    left: 50%;
+    font: 12pt courier;
+    letter-spacing: 14px;
+}
+#intro{
+    position: absolute;
+    float: right;
+    text-align: justify;
+    color: white;
+    left: 50%;
+    right: 10%;
+    font: 10pt courier;
+    background-color: darkred;
+    padding: 12px;
+}
+#section1{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 50px;
+}
+#section1small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 15px;
+    letter-spacing: 3px;
+}
+#section2small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 40px;
+    letter-spacing: 3px;
+}
+#section2{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 75px;
+}
+#section3small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 110px;
+    letter-spacing: 3px;
+}
+#section3{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 145px;
+}
+#section4small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 180px;
+    letter-spacing: 3px;
+}
+#section4{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 205px;
+}
+#section5small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 240px;
+    letter-spacing: 3px;
+}
+#section5{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 275px;
+}
+#section6{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 345px;
+}
+#section6small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 310px;
+    letter-spacing: 3px;
+}
+#section7{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 415px;
+}
+#section7small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 380px;
+    letter-spacing: 3px;
+}
+#section8{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 475px;
+}
+#section8small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 450px;
+    letter-spacing: 3px;
+}
+#section9{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 545px;
+}
+#section9small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 510px;
+    letter-spacing: 3px;
+}
+#section10small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 580px;
+    letter-spacing: 3px;
+}
+#section10{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 615px;
+}
+#section11small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 650px;
+    letter-spacing: 3px;
+}
+#section11{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 685px;
+}
+#section12small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 720px;
+    letter-spacing: 3px;
+}
+#section12{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 755px;
+}
+#section13small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 790px;
+    letter-spacing: 3px;
+}
+#section13{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 825px;
+}
+#section14small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 860px;
+    letter-spacing: 3px;
+}
+#section14{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 895px;
+}
+#intro2{
+    position: absolute;
+    float: left;
+    text-align: justify;
+    left: 10%;
+    right: 50%;
+    font: 10pt courier;
+    background-color: darkred;
+    color: white;
+    padding: 12px;
+    
+}
+#section15small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 15px;
+    letter-spacing: 3px;
+}
+#section15{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 50px;
+
+}
+#section16small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 40px;
+    letter-spacing: 3px;
+}
+#section16{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 75px;
+}
+#section17small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 110px;
+    letter-spacing: 3px;
+}
+#section17{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 145px;
+}
+#section18small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 180px;
+    letter-spacing: 3px;
+}
+#section18{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 205px;
+}
+#section19small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 240px;
+    letter-spacing: 3px;
+}
+#section19{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 275px;
+}
+#section20{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 345px;
+}
+#section20small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 310px;
+    letter-spacing: 3px;
+}
+#section21{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 415px;
+}
+#section21small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 380px;
+    letter-spacing: 3px;
+}
+#section22{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 475px;
+}
+#section22small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 450px;
+    letter-spacing: 3px;
+}
+#section23{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 545px;
+}
+#section23small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 510px;
+    letter-spacing: 3px;
+}
+#section24small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 580px;
+    letter-spacing: 3px;
+}
+#section24{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 615px;
+}
+#section25small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 650px;
+    letter-spacing: 3px;
+}
+#section25{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 685px;
+}
+#section26small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 720px;
+    letter-spacing: 3px;
+}
+#section26{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 755px;
+}
+#section27small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 790px;
+    letter-spacing: 3px;
+}
+#section27{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 825px;
+}
+#intro3{
+    position: absolute;
+    float: right;
+    text-align: justify;
+    left: 50%;
+    right: 10%;
+    font: 10pt courier;
+    color: white;
+    padding: 12px;
+    background-color: darkred;
+}
+#section28small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 50px;
+    letter-spacing: 3px;
+}
+#section28{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 75px;
+}
+#sectionx{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 15px;
+}
+#section29small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 110px;
+    letter-spacing: 3px;
+}
+#section29{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 145px;
+}
+#section30small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 180px;
+    letter-spacing: 3px;
+}
+#section30{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 205px;
+}
+#section31small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 240px;
+    letter-spacing: 3px;
+}
+#section31{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 275px;
+}
+#section32{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 345px;
+}
+#section32small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 310px;
+    letter-spacing: 3px;
+}
+#section33{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 415px;
+}
+#section33small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 380px;
+    letter-spacing: 3px;
+}
+#section34{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    left: 475px;
+}
+#section34small{
+    position: absolute;
+    float: left;
+    font: 10pt courier;
+    font-style: italic;
+    left: 450px;
+    letter-spacing: 3px;
+}
