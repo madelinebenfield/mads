@@ -17,6 +17,7 @@ nav{
     text-align: center;
     top: 278px;
     left: 280pt;
+    z-index: 200;
 }
 a:link{
     color: white;
