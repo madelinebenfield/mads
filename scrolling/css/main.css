@@ -1,0 +1,10 @@
+div{
+    position: absolute;
+    text-align: justify;
+    font-family: monospace;
+    font-size: 30px;
+    overflow: scroll;
+    height: 900px;
+    left: 20%;
+    right: 20%;
+}
