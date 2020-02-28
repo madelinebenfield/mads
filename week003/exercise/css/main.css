@@ -1,32 +1,104 @@
+body{
+    background-color: #08080f;
+}
 #one{
-    background-color: #4fc288;
+    background-color: #08080f;
     top: 0px;
     left: -10%;
     height: 400px;
     width: 500px;
 }
 #two{
-    background-color:#129a55;
-    left: 50%;
+    background-color:#021735;
     top: 300px;
     height: 600px;
-    width: 700px;
+    width: 100%;
+    left: -10%;
 }
 #three{
-    background-color:#608573;
+    background-color:#2a3749;
     right: 0%;
     top: 400px;
     position: absolute;
-    height: 540px;
+    height: 608px;
     width: 603px;
     z-index: 2;
 }
 #four{
-    background-color: #e967b7;
+    background-color: #0e111d;
     position: absolute;
     top: 0px;
     right: 1px;
     width: 900px;
     height: 409px;
     z-index: 5;
+}
+#moon{
+    position: fixed;
+    left: 40%;
+    top: 300px;
+    z-index: 50;
+    animation: spin; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+   
+}
+#star1{
+    position: absolute;
+    left: 10%;
+    top: 600px;
+    z-index: 49;
+    animation: spin; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+}
+#star2{
+    position: absolute;
+    left: 75%;
+    top: 100px;
+    z-index: 48;
+    animation: spin; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+}
+#star3{
+    position: absolute;
+    right: 37%;
+    top: 615px;
+    z-index: 47;
+    animation: spin;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+}
+#star4{
+    position: absolute;
+    left: 14%;
+    top: 60px;
+    z-index: 47;
+    animation: spin;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+}
+#circle{
+    position: fixed;
+    top: 275px;
+    left: 38.1%;
+    z-index: 51;
+    animation: spin;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
