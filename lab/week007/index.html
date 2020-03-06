@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>makin' a button!</title>
+    <style>
+      button {
+        padding: 6px;
+        font-size: 16px;
+        font-family: monospace;
+        text-transform: uppercase;
+        background-color: pink;
+      }
+      button:hover {
+        cursor: pointer;
+        background-color: blue;
+        color: #fff;
+      }
+      #line-one{
+          font-family: monospace;
+          font-size: 14px;
+          top: 300px;
+          left: 10em;
+          position: absolute;
+      }
+      #line-two{
+          font-family: monospace;
+          font-size: 14px;
+          position: absolute;
+          top: 600px;
+          left: 45em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="button-container">
+		<button id="button"> click me!!! </button>
+	</div>
+    <script>
+      window.onload = function() { 
+		   
+           var first_line = document.getElementById("line-one");
+           var second_line = document.getElementById("line-two");
+
+           var button = document.getElementById("button");
+
+           var line_one = [
+                "i am coding",
+                "i am a scientist",
+           ];
+           var line_two = [
+                "and i'm confused",
+                "and i'm a genius"
+           ];
+           function select_random(x){
+               y = x[Math.floor(Math.random()*x.length)];
+               return y;
+           }
+
+           function generate() {
+
+               var selected_one = select_random(line_one);
+               var selected_two = select_random(line_two);
+
+               first_line.innerHTML = selected_one;
+               second_line.innerHTML = selected_two;
+           }
+           document.getElementById('button').onclick = function(){
+               console.log('click');
+               generate();
+           };
+           generate();
+   
+       } 
+   </script>
+
+	<div id="line-one"></div> 
+	<div id="line-two"></div> 
+  </body>
+</html>
+
+		<!-- >// run the folowing code when the page has loaded.
+		window.onload = function() { 
+		   
+			// first thing, store some HTML elements in variables. This makes it easier to refer to these things later on, it's just for saving room.
+			var first_line = document.getElementById("line-one");
+            var second_line = document.getElementById("line-two");
+            var third_line = document.getElementById("line-three");
+            var fourth_line = document.getElementById("line-four");
+
+            var button = document.getElementById("button");
+		
+			// now define a few arrays. The items in these arrays will be used to populate the HTML.
+            var line_one = [
+                "Fruit Cakes",
+                "Old records",
+                "My jeans",
+                "Vegan snacks"
+            ];
+            var line_two = [
+                "slide",
+                "dance",
+                "stare",
+                "freak"
+            ];
+            var line_three = [
+                "into the moon",
+                "over the hedge",
+                "my socks off",
+                "their hair off"
+            ];
+            var line_four = [
+                "into the sunlight",
+                "until four am",
+                "on drugs",
+                "into the hospital"
+            ];
+			// select_random is a function that returns a random item from an array. 
+			// x, in the parentheses, is called a parameter. It's like a variable that only exists in the scope of one function. 
+			// When we run this function later on, we'll replace x with the name of the array that we want to select from.
+			function select_random(x){
+				y = x[Math.floor(Math.random()*x.length)];
+				return y;
+			}
+
+			// this is a function called generate.
+			function generate() {
+
+				// the first generate it does is create four variables. Each variable is assigned a value. The value is the random item from each array.
+				var selected_one = select_random(line_one);
+				var selected_two = select_random(line_two);
+				var selected_three = select_random(line_three);
+				var selected_four = select_random(line_four);
+
+				// Now, take the random item from the array, and change the HTML content of each item to that value.
+				first_line.innerHTML = selected_one;
+				second_line.innerHTML = selected_two;
+				third_line.innerHTML = selected_three;
+				fourth_line.innerHTML = selected_four;
+
+			}
+
+			// When you click the 'button', run the 'generate' function. This will change the content of the page.
+			document.getElementById('button').onclick = function(){
+
+				// also, tell us that we're clicking, so we can make sure this works!
+				console.log('click');
+				generate();
+			};
+
+			// This is necessary so that when the page loads, it automatically runs generate.
+			generate();
+	 
