@@ -1,0 +1,133 @@
+#topheader{
+    background-color: #0000ff;
+    border-radius: 2pt;
+    border-color: #0000ff;
+    border-style: solid;
+    border-radius: 30px;
+    position: absolute;
+    padding: 10px;
+    height: 25px;
+    width: 46%;
+    left: 30px;
+    font-family: monospace;
+    font-size: 16pt;
+    color: white;
+    text-align: left;
+}
+#right{
+    background-color: white;
+    color: #0000ff;
+    text-align: right;
+    font-family: monospace;
+    font-size: 16pt;
+    position: absolute;
+    padding: 10px;
+    height: 25px;
+    width: 46%;
+    right: 30px;
+    border-radius: 30px;
+    border-color: #0000ff;
+    border-style: solid;
+    font-style: italic;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    top: 80px;
+    position: absolute;
+    right: 30px;
+    left: 30px;
+}
+#album1 {
+width: 190px;
+}
+#album2 {
+width: 190px;
+}
+#album3 { 
+width: 190px;
+}
+#album4 {
+width: 190px;
+}
+#album5 {
+width: 190px;
+}
+#album6 {
+ width: 190px;
+ }
+#album7 {
+ width: 190px;
+ }
+#album8 {
+ width: 190px;
+ }
+#album9 {
+ width: 190px;
+ }
+#album10 {
+ width: 190px;
+ }
+#album11 {
+ width: 190px;
+ }
+#album12 {
+ width: 190px;
+ }
+#album13 { 
+ width: 190px;
+ }
+#album14 { 
+ width: 190px;
+ }
+#album15 { 
+ width: 190px;
+ }
+#album16 { 
+ width: 190px;
+ }
+#album17 { 
+ width: 190px;
+ }
+#album18 { 
+ width: 190px;
+ }
+#album19 { 
+ width: 190px;
+ }
+#album20 { 
+ width: 190px;
+ }
+#album21 { 
+ width: 190px;
+ }
+#album22 { 
+ width: 190px;
+ }
+#album23 { 
+ width: 190px;
+ }
+#album24 { 
+ width: 190px;
+ }
+#album25 { 
+ width: 190px;
+ }
+#album26 { 
+ width: 190px;
+ }
+#album27 { 
+ width: 190px;
+ }
+#album28 { 
+ width: 190px;
+ }
+#album29 { 
+ width: 190px;
+ }
+#album30 { 
+ width: 190px;
+ }

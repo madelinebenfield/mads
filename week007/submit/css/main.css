@@ -1,0 +1,36 @@
+#topheader{
+    background-color: #0000ff;
+    border-radius: 2pt;
+    border-color: #0000ff;
+    border-style: solid;
+    border-radius: 30px;
+    position: absolute;
+    padding: 10px;
+    height: 25px;
+    width: 46%;
+    left: 30px;
+    font-family: monospace;
+    font-size: 16pt;
+    color: white;
+    text-align: left;
+}
+#right{
+    background-color: white;
+    color: #0000ff;
+    text-align: right;
+    font-family: monospace;
+    font-size: 16pt;
+    position: absolute;
+    padding: 10px;
+    height: 25px;
+    width: 46%;
+    right: 30px;
+    border-radius: 30px;
+    border-color: #0000ff;
+    border-style: solid;
+    font-style: italic;
+}
+#survey{
+    top: 100px;
+    position: absolute;
+}
