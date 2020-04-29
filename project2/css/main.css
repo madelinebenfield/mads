@@ -1,0 +1,566 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    top: 190px;
+    position: absolute;
+    padding: 5px;
+    opacity: 1;
+    z-index: 2;
+}
+#topheader{
+    top: 10px;
+    right: 10px;
+    height: 18px;
+}
+#middle{
+    background-color: white;
+    color: #0000ff;
+    text-align: middle;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 18pt;
+    position: absolute;
+    padding: 10px;
+    height: 30px;
+    top: 100px;
+    border-radius: 2pt;
+    border-radius: 30px;
+    right: 28%;
+    width: 104px;
+    border-color: #0000ff;
+    border-style: solid;
+}
+#main{
+    background-color: white;
+    color: #0000ff;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 12pt;
+    position: absolute;
+    padding: 7px;
+    height: 20px;
+    border-radius: 2pt;
+    border-radius: 30px;
+    right: 60%;
+    width: 50px;
+    top: 29px;
+    border-color: #0000ff;
+    border-style: solid;
+}
+#about{
+    background-color: white;
+    color: #0000ff;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 12pt;
+    position: absolute;
+    padding: 7px;
+    height: 20px;
+    top: 25px;
+    border-radius: 30px;
+    right: 5%;
+    width: 60px;
+    border-color: #0000ff;
+    border-style: solid;
+}
+#submit{
+    background-color: white;
+    color: #0000ff;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 12pt;
+    position: absolute;
+    padding: 7px;
+    height: 20px;
+    border-radius: 2pt;
+    border-radius: 30px;
+    left: 10%;
+    width: 70px;
+    border-color: #0000ff;
+    border-style: solid;
+    top: 70px;
+}
+a:visited{
+    color: #0000ff;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 30px;
+    left: 30px;
+    justify-content: space-between;
+    align-content: flex; 
+}
+#container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    top: 190px;
+    position: absolute;
+    padding: 5px;
+}
+#album1{
+    opacity: 1;
+}
+#album1:hover{
+    opacity: 0;
+}
+#album2{
+    opacity: 1;
+}
+#album2:hover{
+    opacity: 0;
+}
+#album3{
+    opacity: 1;
+}
+#album3:hover{
+    opacity: 0;
+}
+#album4{
+    opacity: 1;
+}
+#album4:hover{
+    opacity: 0;
+}
+#album5{
+    opacity: 1;
+}
+#album5:hover{
+    opacity: 0;
+}
+#album6{
+    opacity: 1;
+}
+#album6:hover{
+    opacity: 0;
+}
+#album7{
+    opacity: 1;
+}
+#album7:hover{
+    opacity: 0;
+}
+#album8{
+    opacity: 1;
+}
+#album8:hover{
+    opacity: 0;
+}
+#album9{
+    opacity: 1;
+}
+#album9:hover{
+    opacity: 0;
+}
+#album10{
+    opacity: 1;
+}
+#album10:hover{
+    opacity: 0;
+}
+#album11{
+    opacity: 1;
+}
+#album11:hover{
+    opacity: 0;
+}
+#album12{
+    opacity: 1;
+}
+#album12:hover{
+    opacity: 0;
+}
+#album13{
+    opacity: 1;
+}
+#album13:hover{
+    opacity: 0;
+}
+#album14{
+    opacity: 1;
+}
+#album14:hover{
+    opacity: 0;
+}
+#album15{
+    opacity: 1;
+}
+#album15:hover{
+    opacity: 0;
+}
+#album16{
+    opacity: 1;
+}
+#album16:hover{
+    opacity: 0;
+}
+#album17{
+    opacity: 1;
+}
+#album17:hover{
+    opacity: 0;
+}
+#album18{
+    opacity: 1;
+}
+#album18:hover{
+    opacity: 0;
+}
+#album19{
+    opacity: 1;
+}
+#album19:hover{
+    opacity: 0;
+}
+#album20{
+    opacity: 1;
+}
+#album20:hover{
+    opacity: 0;
+}
+#album21{
+    opacity: 1;
+}
+#album21:hover{
+    opacity: 0;
+}
+#album22{
+    opacity: 1;
+}
+#album22:hover{
+    opacity: 0;
+}
+#album23{
+    opacity: 1;
+}
+#album23:hover{
+    opacity: 0;
+}
+#album24{
+    opacity: 1;
+}
+#album24:hover{
+    opacity: 0;
+}
+#album25{
+    opacity: 1;
+}
+#album25:hover{
+    opacity: 0;
+}
+#album26{
+    opacity: 1;
+}
+#album26:hover{
+    opacity: 0;
+}
+#album27{
+    opacity: 1;
+}
+#album27:hover{
+    opacity: 0;
+}
+#album28{
+    opacity: 1;
+}
+#album28:hover{
+    opacity: 0;
+}
+#album29{
+    opacity: 1;
+}
+#album29:hover{
+    opacity: 0;
+}
+#album30{
+    opacity: 1;
+}
+#album30:hover{
+    opacity: 0;
+}
+#album31{
+    opacity: 1;
+}
+#album31:hover{
+    opacity: 0;
+}
+#album32{
+    opacity: 1;
+}
+#album32:hover{
+    opacity: 0;
+}
+#album33{
+    opacity: 1;
+}
+#album33:hover{
+    opacity:0;
+}
+#album34:hover{
+    opacity: 0;
+}
+#album35{
+    opacity: 1;
+}
+#album35:hover{
+    opacity: 0;
+}
+#album36{
+    opacity: 1;
+}
+#album36:hover{
+    opacity: 0;
+}
+#album37{
+    opacity: 1;
+}
+#album37:hover{
+    opacity: 0;
+}
+#album38{
+    opacity: 1;
+}
+#album38:hover{
+    opacity: 0;
+}
+#album39{
+    opacity: 1;
+}
+#album39:hover{
+    opacity: 0;
+}
+#album40{
+    opacity: 1;
+}
+#album40:hover{
+    opacity: 0;
+}
+#album41{
+    opacity: 1;
+}
+#album41:hover{
+    opacity: 0;
+}
+#album42{
+    opacity: 1;
+}
+#album42:hover{
+    opacity: 0;
+}
+#album43{
+    opacity: 1;
+}
+#album43:hover{
+    opacity: 0;
+}
+#album44{
+    opacity: 1;
+}
+#album44:hover{
+    opacity: 0;
+}
+#album45{
+    opacity: 1;
+}
+#album45:hover{
+    opacity: 0;
+}
+#album46{
+    opacity: 1;
+}
+#album46:hover{
+    opacity: 0;
+}
+#album47{
+    opacity: 1;
+}
+#album47:hover{
+    opacity: 0;
+}
+#album48{
+    opacity: 1;
+}
+#album48:hover{
+    opacity: 0;
+}
+#album49{
+    opacity: 1;
+}
+#album49:hover{
+    opacity: 0;
+}
+#album50{
+    opacity: 1;
+}
+#album50:hover{
+    opacity: 0;
+}
+#album51{
+    opacity: 1;
+}
+#album51:hover{
+    opacity: 0;
+}
+#album52{
+    opacity: 1;
+}
+#album52:hover{
+    opacity: 0;
+}
+#album53{
+    opacity: 1;
+}
+#album53:hover{
+    opacity: 0;
+}
+#album54{
+    opacity: 1;
+}
+#album54:hover{
+    opacity: 0;
+}
+#album55{
+    opacity: 1;
+}
+#album55:hover{
+    opacity: 0;
+}
+#album56{
+    opacity: 1;
+}
+#album56:hover{
+    opacity: 0;
+}
+#album57{
+    opacity: 1;
+}
+#album57:hover{
+    opacity: 0;
+}
+#album58{
+    opacity: 1;
+}
+#album58:hover{
+    opacity: 0;
+}
+#album59{
+    opacity: 1;
+}
+#album59:hover{
+    opacity: 0;
+}
+#album60{
+    opacity: 1;
+}
+#album60:hover{
+    opacity: 0;
+}
+#album61{
+    opacity: 1;
+}
+#album61:hover{
+    opacity: 0;
+}
+#album62{
+    opacity: 1;
+}
+#album62:hover{
+    opacity: 0;
+}
+#album63{
+    opacity: 1;
+}
+#album63:hover{
+    opacity: 0;
+}
+#album64{
+    opacity: 1;
+}
+#album64:hover{
+    opacity: 0;
+}
+#album65{
+    opacity: 1;
+}
+#album65:hover{
+    opacity: 0;
+}
+#album66{
+    opacity: 1;
+}
+#album66:hover{
+    opacity: 0;
+}
+#album67{
+    opacity: 1;
+}
+#album67:hover{
+    opacity: 0;
+}
+#album68{
+    opacity: 1;
+}
+#album68:hover{
+    opacity: 0;
+}
+#album69{
+    opacity: 1;
+}
+#album69:hover{
+    opacity: 0;
+}
+#album70{
+    opacity: 1;
+}
+#album70:hover{
+    opacity: 0;
+}
+#album71{
+    opacity: 1;
+}
+#album71:hover{
+    opacity: 0;
+}
+#album72{
+    opacity: 1;
+}
+#album72:hover{
+    opacity: 0;
+}
+#album73{
+    opacity: 1;
+}
+#album73:hover{
+    opacity: 0;
+}
+#album74{
+    opacity: 1;
+}
+#album74:hover{
+    opacity: 0;
+}
+#album75{
+    opacity: 1;
+}
+#album75:hover{
+    opacity: 0;
+}
+#album76{
+    opacity: 1;
+}
+#album76:hover{
+    opacity: 0;
+}
+#album77{
+    opacity: 1;
+}
+#album77:hover{
+    opacity: 0;
+}
