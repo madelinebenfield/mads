@@ -16,9 +16,8 @@ body{
   font-size: 27px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  margin: 50px;
-  margin-left: 38%;
-  margin-top: 70px;
+  margin: 0 auto;
+  margin-top: 90px;
 }
 #languagelink{
   width: 250px;
@@ -41,8 +40,6 @@ body{
   border-width: 2px;
   border-radius: 50%;
   text-align: center;
-  vertical-align: middle;
-  display: inline-block;
 }
 #sharkslink{
   width: 250px;
@@ -64,3 +61,53 @@ body{
 a:visited{
   color: rgb(53, 53, 53);
 }
+@media only screen
+ and (min-device-width: 0px)
+ and (max-device-width: 667px)
+ and (-webkit-min-device-pixel-ratio: 2)
+ and (orientation: portrait) {
+    body{
+      background-image: url(https://assets.website-files.com/5bfd1275cc56e15ce750b18e/5c289afb9a15752a6f893a41_18.%20Buttercup.jpg);
+      background-size: 250%;
+    }
+    .link{
+      font-size: 50px;
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 200px;
+    }
+    #languagelink{
+      width: 350px;
+      height: 210px;
+      border-color:black;
+      padding: 30px;
+      border-style: solid;
+      background-color: white;
+      border-width: 2px;
+      border-radius: 50%;
+      text-align: center;
+    }
+    #archivelink{
+      width: 350px;
+      height: 210px;
+      border-color:black;
+      padding: 30px;
+      border-style: solid;
+      background-color: white;
+      border-width: 2px;
+      border-radius: 50%;
+      text-align: center;
+    }
+    #sharkslink{
+      width: 350px;
+      height: 160px;
+      border-color:black;
+      padding: 30px;
+      border-style: solid;
+      background-color: white;
+      border-width: 2px;
+      border-radius: 50%;
+      text-align: center;
+    }
+ }
